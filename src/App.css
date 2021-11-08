@@ -1,0 +1,66 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 1rem;
+  background: antiquewhite;
+  overflow-y: scroll;
+}
+
+.centered-row,
+.instructions,
+.side-by-side,
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.instructions {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.main,
+.code {
+  min-width: 40vh;
+  color: rgba(2, 1, 1, 0.8);
+}
+
+.main {
+  max-height: 100%;
+  height: 70vh;
+  overflow-y: scroll;
+}
+
+.no-books {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-align: center;
+  color: sandybrown;
+  padding: 1rem;
+}
+
+.code {
+  overflow-y: scroll;
+  height: 70vh;
+  padding: 1rem;
+  margin: 0;
+  background: cornsilk;
+}
+
+.button {
+  margin: 0.5rem 1rem;
+  border-radius: 10rem;
+  border-width: 0;
+  background: sandybrown;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: white;
+}
+
+.button:disabled {
+  opacity: 0.5;
+}
