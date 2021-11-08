@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import Sortable, { Swap, Options } from 'sortablejs';
 import DragHandle from '../DragHandle/DragHandle';
+import './SortableList.css';
 
 Sortable.mount(new Swap());
 
